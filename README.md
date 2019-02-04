@@ -6,7 +6,7 @@ Simply footnotes for [Showdown](https://github.com/showdownjs/showdown).
 
 ## Install
 
-I'd advice using this extension with something like [browserify](https://www.npmjs.com/package/browserify).
+I'd advise using this extension with something like [browserify](https://www.npmjs.com/package/browserify).
 
 ```bash
 npm i --save showdown-footnotes
@@ -62,3 +62,6 @@ Multiline footnotes are wrapped in a `<div>` instead of a `<small>`.
 </div>
 ```
 
+### Backlinking
+
+WDD's fork supports backlinking! Clicking on a footnote annotation will take you to a footnote's text, as expected, and clicking on the footnote index next to a footnote's text will take you back to the footnote annotation.
