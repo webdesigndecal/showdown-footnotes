@@ -23,5 +23,6 @@
   "author": "Kriegslustig <npm@ls7.ch>",
   "contributors": [
     "Web Design DeCal"
-  ]
+  ],
+  "private": false
 }
